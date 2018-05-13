@@ -33,13 +33,13 @@ getBalance(accuntNumber){
 }
 };
 
-const kiran = new Account(2, "Kiran Uttarkar")
+const kiran = new Account(2, "Kiran U")
 document.write(`-----------------------------------${kiran.accountHolder}------------------------------------------------<br>`);
 kiran.deposit(2, 100);
 kiran.withdraw(2, 40);
 kiran.deposit(2, 300);
 
-const shyam = new Account(3, "Shyam Giri")
+const shyam = new Account(3, "Shyam G")
 document.write(`-----------------------------------${shyam.accountHolder}------------------------------------------------<br>`);
 shyam.deposit(3, 100);
 shyam.withdraw(3, 30);
